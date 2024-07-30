@@ -1,0 +1,15 @@
+Question: what is 4nf
+Answer: A relation schema R is said to be in 4NF if for every Multivalued dependency X Y that holds over R, one of
+following is true.
+1.) X is subset or equal to (or) XY = R.
+2.) X is a super key.
+
+Question: what is 2nf
+Answer: A relation schema R is in 2NF if it is in 1NF and every non-prime attribute A in R is fully functionally dependent on primary key.
+
+Question: what is query
+Answer: A query with respect to DBMS relates to user commands that are used to interact with a data base. The query language can be classified into data definition language and data manipulation language.
+
+Question: what is query
+Answer: A query with respect to DBMS relates to user commands that are used to interact with a data base. The query language can be classified into data definition language and data manipulation language.
+
