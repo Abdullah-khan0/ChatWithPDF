@@ -50,7 +50,7 @@ def get_text_chunks(text):
 def get_vector_store(text_chunks):
     """Create a vector store from text chunks and save it locally."""
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-    vector_store = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
+    vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
     vector_store.save_local("faiss_index")
 
 def get_conversational_chain():
