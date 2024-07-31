@@ -1,9 +1,10 @@
 streamlit
+PyPDF2
+langchain
+langchain_google_genai
 google-generativeai
 python-dotenv
-langchain
-PyPDF2
+pdfplumber
+pillow
 faiss-cpu
-langchain_google_genai
 langchain-community
-pandas
